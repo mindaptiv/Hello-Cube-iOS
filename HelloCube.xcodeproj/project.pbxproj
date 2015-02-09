@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B988AA11A782B09001D2BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B988AA01A782B09001D2BC6 /* main.m */; };
+		2B988AA41A782B09001D2BC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B988AA31A782B09001D2BC6 /* AppDelegate.m */; };
+		2B988AA61A782B09001D2BC6 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2B988AA51A782B09001D2BC6 /* Shader.fsh */; };
+		2B988AA81A782B09001D2BC6 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2B988AA71A782B09001D2BC6 /* Shader.vsh */; };
+		2B988AAB1A782B09001D2BC6 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B988AAA1A782B09001D2BC6 /* GameViewController.m */; };
+		2B988AAE1A782B09001D2BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B988AAC1A782B09001D2BC6 /* Main.storyboard */; };
+		2B988AB01A782B09001D2BC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B988AAF1A782B09001D2BC6 /* Images.xcassets */; };
+		2B988AB31A782B09001D2BC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B988AB11A782B09001D2BC6 /* LaunchScreen.xib */; };
+		2B988ABF1A782B09001D2BC6 /* HelloCubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B988ABE1A782B09001D2BC6 /* HelloCubeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B988AB91A782B09001D2BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B988A931A782B09001D2BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B988A9A1A782B09001D2BC6;
+			remoteInfo = HelloCube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B988A9B1A782B09001D2BC6 /* HelloCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B988A9F1A782B09001D2BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B988AA01A782B09001D2BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B988AA21A782B09001D2BC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B988AA31A782B09001D2BC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B988AA51A782B09001D2BC6 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		2B988AA71A782B09001D2BC6 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		2B988AA91A782B09001D2BC6 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		2B988AAA1A782B09001D2BC6 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		2B988AAD1A782B09001D2BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B988AAF1A782B09001D2BC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B988AB21A782B09001D2BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2B988AB81A782B09001D2BC6 /* HelloCubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B988ABD1A782B09001D2BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B988ABE1A782B09001D2BC6 /* HelloCubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloCubeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B988A981A782B09001D2BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B988AB51A782B09001D2BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B988A921A782B09001D2BC6 = {
+			isa = PBXGroup;
+			children = (
+				2B988A9D1A782B09001D2BC6 /* HelloCube */,
+				2B988ABB1A782B09001D2BC6 /* HelloCubeTests */,
+				2B988A9C1A782B09001D2BC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B988A9C1A782B09001D2BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B988A9B1A782B09001D2BC6 /* HelloCube.app */,
+				2B988AB81A782B09001D2BC6 /* HelloCubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B988A9D1A782B09001D2BC6 /* HelloCube */ = {
+			isa = PBXGroup;
+			children = (
+				2B988AA21A782B09001D2BC6 /* AppDelegate.h */,
+				2B988AA31A782B09001D2BC6 /* AppDelegate.m */,
+				2B988AA51A782B09001D2BC6 /* Shader.fsh */,
+				2B988AA71A782B09001D2BC6 /* Shader.vsh */,
+				2B988AA91A782B09001D2BC6 /* GameViewController.h */,
+				2B988AAA1A782B09001D2BC6 /* GameViewController.m */,
+				2B988AAC1A782B09001D2BC6 /* Main.storyboard */,
+				2B988AAF1A782B09001D2BC6 /* Images.xcassets */,
+				2B988AB11A782B09001D2BC6 /* LaunchScreen.xib */,
+				2B988A9E1A782B09001D2BC6 /* Supporting Files */,
+			);
+			path = HelloCube;
+			sourceTree = "<group>";
+		};
+		2B988A9E1A782B09001D2BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B988A9F1A782B09001D2BC6 /* Info.plist */,
+				2B988AA01A782B09001D2BC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B988ABB1A782B09001D2BC6 /* HelloCubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B988ABE1A782B09001D2BC6 /* HelloCubeTests.m */,
+				2B988ABC1A782B09001D2BC6 /* Supporting Files */,
+			);
+			path = HelloCubeTests;
+			sourceTree = "<group>";
+		};
+		2B988ABC1A782B09001D2BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B988ABD1A782B09001D2BC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B988A9A1A782B09001D2BC6 /* HelloCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B988AC21A782B09001D2BC6 /* Build configuration list for PBXNativeTarget "HelloCube" */;
+			buildPhases = (
+				2B988A971A782B09001D2BC6 /* Sources */,
+				2B988A981A782B09001D2BC6 /* Frameworks */,
+				2B988A991A782B09001D2BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCube;
+			productName = HelloCube;
+			productReference = 2B988A9B1A782B09001D2BC6 /* HelloCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B988AB71A782B09001D2BC6 /* HelloCubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B988AC51A782B09001D2BC6 /* Build configuration list for PBXNativeTarget "HelloCubeTests" */;
+			buildPhases = (
+				2B988AB41A782B09001D2BC6 /* Sources */,
+				2B988AB51A782B09001D2BC6 /* Frameworks */,
+				2B988AB61A782B09001D2BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B988ABA1A782B09001D2BC6 /* PBXTargetDependency */,
+			);
+			name = HelloCubeTests;
+			productName = HelloCubeTests;
+			productReference = 2B988AB81A782B09001D2BC6 /* HelloCubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B988A931A782B09001D2BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mindaptiv;
+				TargetAttributes = {
+					2B988A9A1A782B09001D2BC6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2B988AB71A782B09001D2BC6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2B988A9A1A782B09001D2BC6;
+					};
+				};
+			};
+			buildConfigurationList = 2B988A961A782B09001D2BC6 /* Build configuration list for PBXProject "HelloCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B988A921A782B09001D2BC6;
+			productRefGroup = 2B988A9C1A782B09001D2BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B988A9A1A782B09001D2BC6 /* HelloCube */,
+				2B988AB71A782B09001D2BC6 /* HelloCubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B988A991A782B09001D2BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B988AB31A782B09001D2BC6 /* LaunchScreen.xib in Resources */,
+				2B988AAE1A782B09001D2BC6 /* Main.storyboard in Resources */,
+				2B988AB01A782B09001D2BC6 /* Images.xcassets in Resources */,
+				2B988AA81A782B09001D2BC6 /* Shader.vsh in Resources */,
+				2B988AA61A782B09001D2BC6 /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B988AB61A782B09001D2BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B988A971A782B09001D2BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B988AA41A782B09001D2BC6 /* AppDelegate.m in Sources */,
+				2B988AAB1A782B09001D2BC6 /* GameViewController.m in Sources */,
+				2B988AA11A782B09001D2BC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B988AB41A782B09001D2BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B988ABF1A782B09001D2BC6 /* HelloCubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B988ABA1A782B09001D2BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B988A9A1A782B09001D2BC6 /* HelloCube */;
+			targetProxy = 2B988AB91A782B09001D2BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B988AAC1A782B09001D2BC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B988AAD1A782B09001D2BC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B988AB11A782B09001D2BC6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B988AB21A782B09001D2BC6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B988AC01A782B09001D2BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B988AC11A782B09001D2BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B988AC31A782B09001D2BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloCube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B988AC41A782B09001D2BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloCube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B988AC61A782B09001D2BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCube.app/HelloCube";
+			};
+			name = Debug;
+		};
+		2B988AC71A782B09001D2BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCube.app/HelloCube";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B988A961A782B09001D2BC6 /* Build configuration list for PBXProject "HelloCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B988AC01A782B09001D2BC6 /* Debug */,
+				2B988AC11A782B09001D2BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B988AC21A782B09001D2BC6 /* Build configuration list for PBXNativeTarget "HelloCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B988AC31A782B09001D2BC6 /* Debug */,
+				2B988AC41A782B09001D2BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B988AC51A782B09001D2BC6 /* Build configuration list for PBXNativeTarget "HelloCubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B988AC61A782B09001D2BC6 /* Debug */,
+				2B988AC71A782B09001D2BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B988A931A782B09001D2BC6 /* Project object */;
+}
